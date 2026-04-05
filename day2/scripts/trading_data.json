@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "created": "2026-04-05T01:07:21.706Z",
+    "updated": "2026-04-05T02:41:20.513Z",
+    "version": "1.0"
+  },
+  "records": [
+    {
+      "id": 1,
+      "timestamp": "2026-04-05T01:07:21.707Z",
+      "symbol": "BTCUSDT",
+      "side": "BUY",
+      "price": 67259.94,
+      "volume": 0.1
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-04-05T01:07:21.708Z",
+      "symbol": "BTCUSDT",
+      "side": "SELL",
+      "price": 67280.12,
+      "volume": 0.05
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-04-05T01:07:21.708Z",
+      "symbol": "ETHUSDT",
+      "side": "BUY",
+      "price": 2050.45,
+      "volume": 1.2
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-04-05T02:41:20.511Z",
+      "symbol": "BTCUSDT",
+      "side": "BUY",
+      "price": 67259.94,
+      "volume": 0.1
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-04-05T02:41:20.513Z",
+      "symbol": "BTCUSDT",
+      "side": "SELL",
+      "price": 67280.12,
+      "volume": 0.05
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-04-05T02:41:20.513Z",
+      "symbol": "ETHUSDT",
+      "side": "BUY",
+      "price": 2050.45,
+      "volume": 1.2
+    }
+  ]
+}

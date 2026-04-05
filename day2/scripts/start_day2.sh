@@ -1,12 +1,15 @@
 #!/bin/bash
-# Day 2快速启动脚本
+# Day 2快速启动脚本（修复版）
 
 echo "🚀 启动Day 2量化学习环境"
 echo ""
 
-# 1. 打开VS Code
-echo "📝 打开VS Code..."
-code ~/quant_learning/day2 &
+# 1. 提示打开VS Code
+echo "📝 请手动打开VS Code:"
+echo "   1. 打开应用程序文件夹"
+echo "   2. 找到Visual Studio Code"
+echo "   3. 打开文件夹: ~/quant_learning/day2"
+echo ""
 
 # 2. 打开终端到学习目录
 echo "💻 切换到学习目录..."
@@ -20,7 +23,11 @@ node scripts/env_check.js
 # 4. 显示今日计划
 echo ""
 echo "📅 今日学习计划:"
-cat plan.md 2>/dev/null || echo "计划文件未找到"
+if [ -f plan.md ]; then
+    cat plan.md | head -30
+else
+    echo "计划文件未找到"
+fi
 
 # 5. 提示
 echo ""
